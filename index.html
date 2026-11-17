@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="theme-color" content="#f8e8ef">
+    <title>For Manuu ♡</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <script src="assets/js/config.js" defer></script>
+    <script src="assets/js/intro.js" defer></script>
+    <script src="assets/js/countdown.js" defer></script>
+    <script src="assets/js/experience.js" defer></script>
+</head>
+
+<body>
+    <div class="ambient a"></div>
+    <div class="ambient b"></div>
+    <div id="stars" class="stars"></div>
+    <div id="floaties" class="floaties"></div>
+    <div id="progress" class="progress"></div>
+    <main>
+        <section id="passwordScreen" class="screen">
+            <div class="glass gate">
+                <div class="orbit"><span>♡</span><i>✦</i></div>
+                <p class="eyebrow">A LITTLE UNIVERSE, JUST FOR YOU</p>
+                <h1>Hey, my <em>Manuu</em> ♡</h1>
+                <p class="muted">I made a tiny world for you — full of memories, music, little surprises and a whole lot
+                    of love.</p>
+                <form id="passwordForm"><label class="sr" for="passwordInput">Our secret password</label>
+                    <div class="input">
+                        <input id="passwordInput" type="password" placeholder="Enter 8-digit password [DDMMYYYY]"
+                            inputmode="numeric" pattern="[0-9]{8}" maxlength="8" autocomplete="off" required>
+                        <button id="togglePassword" type="button">♡</button>
+                    </div><button class="btn primary" type="submit">Open your surprise ✧</button>
+                    <p id="passwordError" class="error" aria-live="polite"></p>
+                </form>
+                <p class="signature">made with love, <b>Dayuu</b></p>
+            </div>
+            <p class="foot">take a breath, birthday girl ♡</p>
+        </section>
+        <section id="countdownScreen" class="screen hidden">
+            <div class="glass count"><span class="chip">✦ 18 NOVEMBER 2026</span>
+                <p class="eyebrow">SOMETHING BEAUTIFUL IS WAITING</p>
+                <h1>Almost your <em>day, Manuu.</em></h1>
+                <p class="muted">Your little universe opens at midnight. Until then, remember that someone is very lucky
+                    to have you.</p>
+                <div class="timer">
+                    <div><strong id="days">00</strong><small>days</small></div><b>:</b>
+                    <div><strong id="hours">00</strong><small>hours</small></div><b>:</b>
+                    <div><strong id="minutes">00</strong><small>minutes</small></div><b>:</b>
+                    <div><strong id="seconds">00</strong><small>seconds</small></div>
+                </div>
+                <div class="divider">♡</div>
+                <p class="quote">"You're my favourite notification."</p>
+                <p class="signature">always yours, <b>Dayuu</b></p>
+            </div>
+        </section>
+        <div id="birthdaySite" class="hidden">
+            <header><a class="brand" href="#home">Manuu<span>✦</span></a>
+                <nav><a href="#story">Our story</a><a href="#memories">Memories</a><a href="#song">Our song</a><a
+                        href="#letter">Letter</a></nav><button id="musicToggle"
+                    aria-label="Play or pause song">♫</button>
+            </header>
+            <section class="hero" id="home">
+                <p class="eyebrow reveal">18 · 11 · 2026 ✧ YOUR DAY, MY LOVE</p>
+                <h1 class="reveal">Happy Birthday,<br><em>my Manuu.</em></h1>
+                <p class="hero-copy reveal">A little universe, made for the girl who became my favourite part of this
+                    one.</p><a class="btn primary reveal" href="#birthday-note">Come inside ♡</a>
+                <div class="scroll">SCROLL TO FEEL THE LOVE ↓</div><span class="hero-heart">♡</span>
+            </section>
+            <section class="section" id="birthday-note">
+                <div class="heading reveal">
+                    <p class="eyebrow">A NOTE BEFORE ANYTHING ELSE</p>
+                    <h2>Today, the universe<br>celebrates <em>you.</em></h2>
+                </div>
+                <div class="paper reveal">
+                    <p>Happy Birthday, meri Manuu. ♡
+
+                        Pata hai baby, mujhe tumhara birthday bahut pasand hai. Shayad tumse bhi zyada excitement mujhe
+                        hoti hai is din ki. Lekin mujhe ye bhi pata hai ki tumhare liye ye din utna special ya khushi
+                        wala nahi hota.
+
+                        Mujhe nahi pata ki is din ke saath tumhari kitni saari buri memories judi hui hain, ya kyun
+                        tumhe lagta hai ki tumhare birthday par hamesha kuch na kuch galat ho jaata hai. Main shayad
+                        tumhari har feeling ko poori tarah samajh na paaun, lekin main kabhi nahi chahta ki tumhe apni
+                        feelings chhupani padein.
+
+                        Baby, aaj tumhe zabardasti khush hone ki zarurat nahi hai. Na hi kisi ke liye smile karne ka
+                        pressure lena hai. Agar mann khush hai toh dil kholkar hasna, aur agar mann udaas hai toh woh
+                        bhi bilkul okay hai.
+
+                        Bas meri ek chhoti si wish hai ki iss baar tumhara ye din thoda alag ho. Thoda peaceful, thoda
+                        beautiful aur bahut saare pyaar se bhara hua.
+
+                        Koi pareshani tumhari smile na chheen paaye, koi chhoti si baat tumhara mood kharab na kare aur
+                        tumhe ek baar bhi aisa feel na ho ki tum akeli ho.
+
+                        Tum sirf apne birthday par hi nahi, har ek din special ho mere liye. Tumhari hasi, tumhari
+                        baatein, tumhara gussa, tumhari bachkani harkatein aur tumhara woh caring nature — mujhe tumhara
+                        har version pasand hai.
+                        Mujhe birthdays pasand hain, aur tumhara birthday toh sabse zyada. Lekin birthday se bhi zyada
+                        mujhe tum pasand ho.
+
+                        Happy Birthday, meri favourite person. I hope iss saal zindagi tumhare saath thodi zyada gentle
+                        rahe.♡</p>
+                    <p>If you ever forget how special you are, come back here. I'll leave this little corner of the
+                        internet right where you can find it.</p><span>— Tera Dayuu ♡</span>
+                </div>
+            </section>
+            <section class="section" id="story">
+                <div class="heading reveal">
+                    <p class="eyebrow">FROM A RANDOM CHAT TO MY FAVOURITE PERSON</p>
+                    <h2>How our little <em>story began.</em></h2>
+                    <p class="muted">Some of the best things begin without a plan.</p>
+                </div>
+                <div class="timeline">
+                    <article class="reveal"><small>JUNE 2025</small>
+                        <h3>A random little beginning</h3>
+                        <p>One Instagram group chat, lots of people and one girl who somehow felt a little different.
+                            You were the admin; I was just another name in the chat. Little did I know…</p>
+                    </article>
+                    <article class="reveal"><small>THE LITTLE MOMENTS</small>
+                        <h3>Follow, follow back, and hello</h3>
+                        <p>Story mentions, replies and tiny conversations slowly found their way into our DMs. Somewhere
+                            between those ordinary messages, you became someone I looked forward to.</p>
+                    </article>
+                    <article class="reveal"><small>A LITTLE PAUSE</small>
+                        <h3>Not every chapter was easy</h3>
+                        <p>There were confusing moments, distance and things we didn't quite know how to say. But life
+                            had more pages left for us.</p>
+                    </article>
+                    <article class="reveal"><small>17 SEPTEMBER 2026</small>
+                        <h3>Our new beginning</h3>
+                        <p>A familiar connection found its way back through a common friend. This time, we got to begin
+                            a new chapter together. And I'm grateful we did.</p>
+                    </article>
+                </div>
+            </section>
+            <section class="section" id="memories">
+                <div class="heading reveal">
+                    <p class="eyebrow">LITTLE PIECES OF US</p>
+                    <h2>Our favourite <em>memories.</em></h2>
+                    <p class="muted">Add photo-01.jpg to photo-20.jpg in the photos folder.</p>
+                </div>
+                <div id="gallery" class="gallery"></div>
+                <p class="hint">Tap a photo to see it closer ♡</p>
+                <div class="video-box glass reveal">
+                    <p class="eyebrow">ONE MORE MEMORY</p>
+                    <h3>A moment I want to replay.</h3><video controls playsinline preload="metadata">
+                        <source src="assets/videos/our-memory.mp4" type="video/mp4">
+                    </video><small>Place your video at assets/videos/our-memory.mp4</small>
+                </div>
+            </section>
+            <section class="section" id="song">
+                <div class="heading reveal">
+                    <p class="eyebrow">A SONG WITH YOUR NAME IN MY HEART</p>
+                    <h2><em>Tu Hai Toh Main Hoon.</em></h2>
+                    <p class="muted">A little song from Dayuu, for Manuu.</p>
+                </div>
+                <div class="song glass reveal">
+                    <div class="vinyl">♡</div>
+                    <p class="eyebrow">AN ORIGINAL LITTLE LOVE SONG</p>
+                    <h3>Tu Hai Toh Main Hoon</h3>
+                    <p class="muted">Dayuu × Manuu · Male vocal</p><audio id="songAudio" preload="metadata">
+                        <source src="assets/audio/tu-hai-toh-main-hoon.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="player"><button id="playSong" class="play">▶</button>
+                        <div class="track"><span id="songStatus">A song made for you ♡</span><input id="seek"
+                                type="range" min="0" max="100" value="0"><small id="songTime">0:00</small></div>
+                    </div>
+                    <details>
+                        <summary>Read a little of the lyrics ♡</summary>
+                        <p>Ek random si chat se shuruaat hui,<br>Anjaani si tu, par khaas hui,<br>Bheed mein bhi nazar
+                            tu aane lagi,<br>Bin dekhe hi dil ko bhaane lagi.</p>
+                        <p><b>Tu hai toh main hoon,<br>Tu hai toh jahaan,<br>Tere sang likhni hai,<br>Zindagi ki
+                                daastaan.</b></p>
+                        <p>Teri khamoshi ko bhi samajhta rahunga…</p>
+                    </details><small>Add your finished MP3 at assets/audio/tu-hai-toh-main-hoon.mp3</small>
+                </div>
+            </section>
+            <section class="section">
+                <div class="heading reveal">
+                    <p class="eyebrow">A FEW OF A MILLION REASONS</p>
+                    <h2>Things I adore <em>about you.</em></h2>
+                    <p class="muted">Tap the cards to turn them over.</p>
+                </div>
+                <div class="reasons"><button class="reason reveal"><small>01</small><b>Your caring heart</b><span>It
+                            makes ordinary days feel softer.</span></button><button
+                        class="reason reveal"><small>02</small><b>Your little ways</b><span>Even the smallest things
+                            feel like you.</span></button><button class="reason reveal"><small>03</small><b>Your
+                            smile</b><span>My favourite plot twist in any day.</span></button><button
+                        class="reason reveal"><small>04</small><b>The way you are</b><span>No grand reason. Just you,
+                            Manuu.</span></button></div>
+            </section>
+            <section class="section" id="letter">
+                <div class="heading reveal">
+                    <p class="eyebrow">OPEN WHEN YOU'RE READY</p>
+                    <h2>A little letter, <em>from Dayuu.</em></h2>
+                </div><button id="openLetter" class="envelope reveal" aria-expanded="false"><span
+                        class="env"><i></i><b>♥</b></span><span>A little something for my favourite
+                        girl</span><small>Tap to open 💌</small></button>
+                <article id="letterPaper" class="letter" hidden>
+                    <p class="date">18 November · For my Manuu</p>
+                    <h3>Meri Manuu, ♡</h3>
+                    <div id="letterText">
+                        <p>Meri pyaari Manuu, ♡
+
+                            Sabse pehle toh Happy Birthday, meri jaan!
+
+                            Pata hai, main kaafi time se tumhare birthday ka wait kar raha tha. Mere liye ye din bahut
+                            special hai, kyunki aaj hi ke din meri favourite ladki is duniya mein aayi thi.
+
+                            Lekin ek baat hai jo main tumse kehna chahta hoon.
+
+                            Mujhe pata hai tumhe apna birthday bilkul pasand nahi. Shayad is din se judi kuch aisi
+                            memories hain jo tumhe khush hone nahi deti. Shayad tumhare mann mein pehle se hi ek ajeeb
+                            sa darr rehta hai ki pata nahi aaj kya ho jayega, kya galat ho jayega.
+
+                            Aur sach kahun toh mujhe ye sochkar bura lagta hai ki jis din tumhe sabse zyada pyaar aur
+                            happiness feel honi chahiye, usi din ko lekar tumhare mann mein itni negativity hai.
+
+                            Kaash main tumhari saari buri memories ko mita pata. Kaash main guarantee de pata ki aaj
+                            kuch bhi galat nahi hoga. Lekin main aisa koi jhootha promise nahi karunga.
+
+                            Main bas itna chahta hoon ki tum mere saath kabhi pretend mat karna. Khush nahi ho toh khush
+                            hone ka natak mat karna. Kuch bura lage toh mujhe batana. Mann na ho toh chup rehna. Tumhe
+                            mere saamne har waqt perfect ya happy banne ki zarurat nahi hai.
+
+                            Aur ek baat, mujhe yaad hai humari shuruaat kaise hui thi. June 2025 ka woh random Instagram
+                            group chat, tumhara admin hona, dheere-dheere follow karna, stories par mentions, DMs aur
+                            phir na jaane kab tum meri life ka itna important part ban gayi.
+
+                            Beech mein kuch chapters easy nahi the. Kuch dooriyan aayi, kuch misunderstandings hui,
+                            lekin 17 September 2026 ko jab hum dobara ek saath aaye aur apni relationship shuru ki, toh
+                            mere liye woh din bhi bahut special ban gaya.
+
+                            Aur aaj main bas thankful hoon ki tum meri life mein ho.
+
+                            Manuu, main tumhare saath sirf birthdays celebrate nahi karna chahta. Main tumhare saath
+                            ordinary days bhi jeena chahta hoon. Tumhari random baatein sunna chahta hoon, tumhari
+                            chhoti-chhoti achievements par khush hona chahta hoon, tumhare bure din mein tumhara saath
+                            dena chahta hoon aur tumhari silly harkaton par hasna chahta hoon.
+
+                            Main chahta hoon ki jab kabhi tumhe lage ki sab kuch theek nahi chal raha, toh tumhe kam se
+                            kam ek insaan aisa mile jiske saamne tum bina soche apna dil rakh sako.
+
+                            Aur baby, ek din shayad tumhara birthday tumhe itna bura na lage. Main ye nahi chahta ki tum
+                            apni feelings badalne ke liye khud ko force karo. Bas chahta hoon ki waqt ke saath is date
+                            ke saath kuch achhi memories bhi jud jaayein.
+
+                            Meri wish hai ki iss saal tumhare saare chhote-bade dreams poore hon. Tumhe woh happiness
+                            mile jiske liye tum deserve karti ho. Tumhara mann halka rahe, tumhari smile bani rahe aur
+                            tum khud ko kabhi kam na samjho.
+
+                            Aur haan, ek baat kabhi mat bhoolna:
+
+                            Tumhe pyaar paane ke liye perfect hone ki zarurat nahi hai. Tumhe care deserve karne ke liye
+                            hamesha smile karne ki zarurat nahi hai. Tum jaisi ho, bilkul waisi hi mere liye bahut
+                            precious ho.
+
+                            I love you, meri Manuu. Shayad main har baar sahi words mein express na kar paaun, lekin tum
+                            mere liye bahut मायने rakhti ho.
+
+                            Happy Birthday once again, meri jaan.
+
+                            Aaj ka din jaisa bhi ho, tum mere liye hamesha special rahogi.</p>
+                        <p>I hope this new year of your life is full of peace, courage, health, silly laughter and
+                            beautiful surprises. You deserve all of it.</p>
+                    </div>
+                    <p class="letter-sign">Happy Birthday, meri jaan.<br><b>Tera Dayuu♡</b><br>Always Your🫂💗💋</p><button id="closeLetter"
+                        class="btn quiet">Fold the letter away</button>
+                </article>
+            </section>
+            <section class="section question">
+                <div class="glass question-card reveal">
+                    <div class="big-heart">♡</div>
+                    <p class="eyebrow">ONE LITTLE QUESTION</p>
+                    <h2>Will you stay my<br><em>favourite person forever?</em></h2>
+                    <p class="muted">No pressure, just a tiny question from your Dayuu.</p>
+                    <div class="answers"><button id="yes" class="btn primary">YES, always ♡</button><button id="no"
+                            class="btn no">No</button></div>
+                    <p id="answer" aria-live="polite"></p><button id="decline" class="decline">I'd rather close this
+                        question</button>
+                </div>
+            </section>
+            <footer class="section final">
+                <div>✦　♡　✧</div>
+                <p class="eyebrow">UNTIL ALL OUR TOMORROWS</p>
+                <h2>In every little universe,<br><em>I'd find you.</em></h2>
+                <p>Happy Birthday, Manuu. Thank you for being you.</p>
+                <p class="signature">With love, always<br><b>Dayuu ♡</b></p><a href="#home">Back to our little universe
+                    ↑</a>
+            </footer>
+        </div>
+    </main>
+    <dialog id="photoDialog"><button id="closePhoto">×</button><img id="largePhoto" alt="A memory">
+        <p id="photoCaption"></p>
+    </dialog>
+    <div id="heartsBurst"></div>
+</body>
+
+</html>
